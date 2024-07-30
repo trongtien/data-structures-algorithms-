@@ -1,5 +1,3 @@
-let array = [9,10,8,7,6,5,4,3,2,1]
-
 /**
  * O(n*n)
  * step 1 [9,10,8,7,6,5,4,3,2,1]
@@ -20,6 +18,7 @@ function bubbleSort(array) {
 
 function run(){
     console.time()
+    let array = [9,10,8,7,6,5,4,3,2,1]
     const test = bubbleSort(array)
     console.timeEnd()
     console.log('Test bubble sort', test)
