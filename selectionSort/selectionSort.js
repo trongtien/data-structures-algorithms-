@@ -1,3 +1,4 @@
+// O(N2)
 function selectionSort(array) {
   if (array.length <= 1) return array;
 
